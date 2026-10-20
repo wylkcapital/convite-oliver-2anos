@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="🦙 Llama-Palooza Imperial · Oliver faz 2 anos! 👑">
 <meta property="og:description" content="Puxe a alavanca certa para abrir o portal do Palácio de Kuzcotopia e ver o recado real do Oliver!">
-<meta property="og:image" content="assets/oliver_imperador_arte.jpg">
+<meta property="og:image" content="oliver_imperador_arte.jpg">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
 <meta name="twitter:card" content="summary_large_image">
@@ -22,8 +22,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Metamorphous&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <!-- Pré-carregamento imediato de áudio para evitar delay -->
-<link rel="preload" as="audio" href="assets/yzma_puxe_alavanca_intro.mp3">
-<link rel="preload" as="audio" href="assets/abertura_maestral.mp3">
+<link rel="preload" as="audio" href="yzma_puxe_alavanca_intro.mp3">
+<link rel="preload" as="audio" href="abertura_maestral.mp3">
 
 <style>
 /* =========================================================
@@ -118,7 +118,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: url('assets/kuzcotopia_nano_landscape.jpg') center top / cover no-repeat;
+  background: url('kuzcotopia_nano_landscape.jpg') center top / cover no-repeat;
   filter: brightness(0.8) contrast(1.1) saturate(1.2);
   z-index: -2;
   pointer-events: none;
@@ -200,7 +200,7 @@ img, svg, video {
   position: fixed;
   inset: 0;
   z-index: 10000;
-  background: #06050b url('assets/yzma_secret_lab.jpg') center center / cover no-repeat;
+  background: #06050b url('yzma_secret_lab.jpg') center center / cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1600,8 +1600,8 @@ body.revealed .imperial-actionbar {
 <body class="lock-scroll">
 
 <!-- Áudios Pré-carregados para Execução Imediata Sem Delay -->
-<audio id="yzmaIntroAudioEl" src="assets/yzma_puxe_alavanca_intro.mp3" preload="auto" autoplay playsinline></audio>
-<audio id="temploPortalAudioEl" src="assets/abertura_maestral.mp3" preload="auto" playsinline></audio>
+<audio id="yzmaIntroAudioEl" src="yzma_puxe_alavanca_intro.mp3" preload="auto" autoplay playsinline></audio>
+<audio id="temploPortalAudioEl" src="abertura_maestral.mp3" preload="auto" playsinline></audio>
 
 
 <!-- =========================================================
@@ -1696,7 +1696,7 @@ body.revealed .imperial-actionbar {
   <div id="trapdoorAlert" class="trapdoor-alert bevel-box" role="dialog" aria-label="Alçapão Secreto">
     <div class="trapdoor-video-shell bevel-box">
       <video id="yzmaTrapVideo" playsinline webkit-playsinline preload="auto">
-        <source src="assets/A_Nova_Onda_do_Imperador_Yzma_Kronk_06_ao_fim_FullHD.mp4" type="video/mp4">
+        <source src="A_Nova_Onda_do_Imperador_Yzma_Kronk_06_ao_fim_FullHD.mp4" type="video/mp4">
       </video>
     </div>
     <button class="trapdoor-btn shine-gold" onclick="closeTrapAlert()">Tentar a Outra Alavanca! 🦙</button>
@@ -1713,8 +1713,8 @@ body.revealed .imperial-actionbar {
       <!-- Alavanca 1 (A Errada / Alçapão - Onça) -->
       <div class="lever-stone-device" id="unitWrong" onclick="pullWrongLever()" role="button" aria-label="Puxar Alavanca 1 (Onça / Alçapão)">
         <div class="lever-stone-artwork" id="socketWrong">
-          <img class="lever-img-state img-up" src="assets/lever_jaguar_up.png" alt="Alavanca da Onça">
-          <img class="lever-img-state img-down" src="assets/lever_jaguar_down.png" alt="Alavanca da Onça Acionada">
+          <img class="lever-img-state img-up" src="lever_jaguar_up.png" alt="Alavanca da Onça">
+          <img class="lever-img-state img-down" src="lever_jaguar_down.png" alt="Alavanca da Onça Acionada">
           <div class="lever-stone-glow red-glow"></div>
         </div>
         <span class="lever-stone-label">🐆 Alavanca 1</span>
@@ -1723,8 +1723,8 @@ body.revealed .imperial-actionbar {
       <!-- Alavanca 2 (A Certa / Palácio Imperial - Lhama) -->
       <div class="lever-stone-device" id="unitRight" onclick="pullRightLever()" role="button" aria-label="Puxar Alavanca 2 (Lhama / Convite)">
         <div class="lever-stone-artwork" id="socketRight">
-          <img class="lever-img-state img-up" src="assets/lever_llama_up.png" alt="Alavanca da Lhama">
-          <img class="lever-img-state img-down" src="assets/lever_llama_down.png" alt="Alavanca da Lhama Acionada">
+          <img class="lever-img-state img-up" src="lever_llama_up.png" alt="Alavanca da Lhama">
+          <img class="lever-img-state img-down" src="lever_llama_down.png" alt="Alavanca da Lhama Acionada">
           <div class="lever-stone-glow green-glow"></div>
         </div>
         <span class="lever-stone-label">🦙 Alavanca 2</span>
@@ -1774,7 +1774,7 @@ body.revealed .imperial-actionbar {
     <div class="imperial-monumental-frame">
       <!-- Viga Superior: O Sol Inca, Lhamas Douradas e Cantoneiras de Cabeça de Lhama -->
       <div class="stone-frame-header-art">
-        <img src="assets/stone_frame_top.png" alt="Frontão Imperial de Pedra e Ouro" class="stone-frame-top-img">
+        <img src="stone_frame_top.png" alt="Frontão Imperial de Pedra e Ouro" class="stone-frame-top-img">
       </div>
 
       <!-- Corpo da Moldura: Pilares de Pedra Inca com Gregas Douradas e Folha Imperial Central -->
@@ -1793,7 +1793,7 @@ body.revealed .imperial-actionbar {
             <!-- Herói: Ilustração Real do Imperador Oliver -->
             <div class="oliver-art-stage" id="kuzcoHero" title="Imperador Oliver!">
               <div class="oliver-art-frame bevel-box">
-                <img class="oliver-art-img" src="assets/oliver_imperador_arte.jpg" alt="Imperador Oliver - O Lhama-Palooza vai ferver">
+                <img class="oliver-art-img" src="oliver_imperador_arte.jpg" alt="Imperador Oliver - O Lhama-Palooza vai ferver">
               </div>
             </div>
 
@@ -1884,7 +1884,7 @@ body.revealed .imperial-actionbar {
             <!-- Moldura da Turma Oficial -->
             <div class="cast-frame-wrapper">
               <div class="cast-photo-frame bevel-box">
-                <img class="bevel-box" src="assets/turma_oficial.png" alt="Turma de A Nova Onda do Imperador celebrando">
+                <img class="bevel-box" src="turma_oficial.png" alt="Turma de A Nova Onda do Imperador celebrando">
               </div>
               <p class="cast-caption-text">Com Kuzco, Pacha, Kronk e a inconfundível Yzma</p>
             </div>
@@ -1900,7 +1900,7 @@ body.revealed .imperial-actionbar {
 
       <!-- Viga Inferior: Base de Pedra com Pirâmides e Cabeças de Lhama Douradas -->
       <div class="stone-frame-footer-art">
-        <img src="assets/stone_frame_bottom.png" alt="Base Imperial de Pedra e Ouro" class="stone-frame-bottom-img">
+        <img src="stone_frame_bottom.png" alt="Base Imperial de Pedra e Ouro" class="stone-frame-bottom-img">
       </div>
     </div>
   </section>
@@ -1917,8 +1917,8 @@ body.revealed .imperial-actionbar {
 
     <div class="video-cinematic-card bevel-box">
       <div class="video-screen-box bevel-box" id="videoBox">
-        <video id="kuzcoVideoPlayer" playsinline webkit-playsinline preload="auto" poster="assets/video_poster.jpg">
-          <source src="assets/final_llama_v9.mp4" type="video/mp4">
+        <video id="kuzcoVideoPlayer" playsinline webkit-playsinline preload="auto" poster="video_poster.jpg">
+          <source src="final_llama_v9.mp4" type="video/mp4">
         </video>
 
         <button class="solar-play-btn shine-gold" id="btnPlayVideo" aria-label="Reproduzir Vídeo do Kuzco">
@@ -2219,12 +2219,12 @@ body.revealed .imperial-actionbar {
   let leverAttemptCount = 0; // 0 = 1ª tentativa (sempre alçapão com vídeo), >= 1 = 2ª tentativa (sempre abre o convite)
   let hasUnlocked = false;
 
-  const yzmaIntroAudio = document.getElementById('yzmaIntroAudioEl') || new Audio('assets/yzma_puxe_alavanca_intro.mp3');
+  const yzmaIntroAudio = document.getElementById('yzmaIntroAudioEl') || new Audio('yzma_puxe_alavanca_intro.mp3');
   yzmaIntroAudio.volume = 1.0;
   yzmaIntroAudio.preload = 'auto';
   window.yzmaIntroAudio = yzmaIntroAudio;
 
-  const templePortalAudio = document.getElementById('temploPortalAudioEl') || new Audio('assets/abertura_maestral.mp3');
+  const templePortalAudio = document.getElementById('temploPortalAudioEl') || new Audio('abertura_maestral.mp3');
   templePortalAudio.volume = 1.0;
   templePortalAudio.preload = 'auto';
   window.templePortalAudio = templePortalAudio;
