@@ -1,0 +1,2601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#25050f">
+<title>Llama-Palooza Imperial · Oliver faz 2 anos</title>
+
+<!-- WhatsApp / OpenGraph Meta Tags para Card Bonito -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="🦙 Llama-Palooza Imperial · Oliver faz 2 anos! 👑">
+<meta property="og:description" content="Puxe a alavanca certa para abrir o portal do Palácio de Kuzcotopia e ver o recado real do Oliver!">
+<meta property="og:image" content="assets/oliver_imperador_arte.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta name="twitter:card" content="summary_large_image">
+  <meta name="description" content="Decreto Real do Imperador Kuzco: Convocação oficial para o Llama-Palooza de 2 anos do Oliver. Dia 16 de janeiro, às 19h no Edifício Sports Garden.">
+
+<!-- Google Fonts: Metamorphous, Cinzel Decorative e Outfit -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Metamorphous&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Pré-carregamento imediato de áudio para evitar delay -->
+<link rel="preload" as="audio" href="assets/yzma_puxe_alavanca_intro.mp3">
+<link rel="preload" as="audio" href="assets/abertura_maestral.mp3">
+
+<style>
+/* =========================================================
+   1. SISTEMA DE DESIGN & PALETA IMPERIAL ANDINA
+   ========================================================= */
+:root {
+  /* Ouro Imperial / Dourado Andino */
+  --gold-highlight: #fff6d1;
+  --gold-bright:    #fcd34d;
+  --gold-primary:   #f59e0b;
+  --gold-burnished: #d97706;
+  --gold-deep:      #92400e;
+  --gold-dark:      #451a03;
+
+  /* Turquesa / Ciano Sagrado Inca */
+  --turq-light:     #67e8f9;
+  --turq-bright:    #06b6d4;
+  --turq-primary:   #0891b2;
+  --turq-deep:      #0e7490;
+  --turq-shadow:    #164e63;
+
+  /* Vinho / Púrpura Real do Palácio */
+  --wine-light:     #e11d48;
+  --wine-primary:   #9f1239;
+  --wine-deep:      #4c0519;
+  --wine-abyss:     #25050f;
+
+  /* Roxo Místico & Rosa Elixir de Yzma */
+  --yzma-violet:    #9333ea;
+  --yzma-neon:      #c084fc;
+  --yzma-pink:      #f43f5e;
+  --yzma-glow:      #fb7185;
+  --yzma-dark:      #3b0764;
+
+  /* Verde Esmeralda Selva (Ações & Sucesso) */
+  --emerald-light:  #34d399;
+  --emerald-primary:#059669;
+  --emerald-deep:   #064e3b;
+
+  /* Papiro Real e Tintas Entalhadas */
+  --papyrus-light:  #fffdf7;
+  --papyrus-main:   #faeed1;
+  --papyrus-shadow: #edd9a6;
+  --ink-primary:    #38110b;
+  --ink-secondary:  #682e18;
+  --ink-muted:      #8c4d2d;
+
+  /* Tipografia */
+  --font-hero:    'Metamorphous', 'Cinzel Decorative', Georgia, serif;
+  --font-royal:   'Cinzel Decorative', 'Metamorphous', Georgia, serif;
+  --font-body:    'Outfit', system-ui, -apple-system, sans-serif;
+
+  /* Easing Fluido Profissional */
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-elastic:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-soft:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Padrões Vetoriais Sutis em Relevo (SVG Base64 Limpo) */
+  --pat-stepped: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20' viewBox='0 0 40 20'%3E%3Cpath d='M0 19h5v-5h5v-5h5V4h10v5h5v5h5v5h5' fill='none' stroke='%23fcd34d' stroke-opacity='0.11' stroke-width='1.5'/%3E%3Crect x='18' y='9' width='4' height='4' fill='%23fcd34d' fill-opacity='0.08'/%3E%3C/svg%3E");
+  --pat-diamonds: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpolygon points='24,4 44,24 24,44 4,24' fill='none' stroke='%23f59e0b' stroke-opacity='0.08' stroke-width='1.2'/%3E%3Cpolygon points='24,12 36,24 24,36 12,24' fill='none' stroke='%2306b6d4' stroke-opacity='0.08' stroke-width='1'/%3E%3C/svg%3E");
+  --pat-stone-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.8  0 0 0 0 0.6  0 0 0 0 0.2  0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+
+/* =========================================================
+   2. RESET & FUNDAÇÃO
+   ========================================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: var(--font-body);
+  color: var(--papyrus-main);
+  background-color: #120509;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('assets/kuzcotopia_nano_landscape.jpg') center top / cover no-repeat;
+  filter: brightness(0.8) contrast(1.1) saturate(1.2);
+  z-index: -2;
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 25%, rgba(15, 3, 8, 0.3) 0%, rgba(8, 2, 4, 0.85) 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+body.lock-scroll {
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+img, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Recorte Chanfrado Pré-Colombiano */
+.bevel-box {
+  --b: 14px;
+  clip-path: polygon(
+    var(--b) 0%, calc(100% - var(--b)) 0%,
+    100% var(--b), 100% calc(100% - var(--b)),
+    calc(100% - var(--b)) 100%, var(--b) 100%,
+    0% calc(100% - var(--b)), 0% var(--b)
+  );
+}
+
+/* Efeito de Brilho Dourado Refletivo (Shine / Gleam) */
+.shine-gold {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.shine-gold::after {
+  content: "";
+  position: absolute;
+  inset: -150%;
+  pointer-events: none;
+  z-index: 6;
+  background: linear-gradient(
+    115deg,
+    transparent 36%,
+    rgba(255, 246, 209, 0.15) 44%,
+    rgba(255, 255, 255, 0.85) 50%,
+    rgba(255, 246, 209, 0.15) 56%,
+    transparent 64%
+  );
+  transform: translateX(-160%);
+}
+.shine-gold.active-shine::after,
+.shine-gold:hover::after {
+  animation: shineSweep 1.1s var(--ease-cinematic) forwards;
+}
+@keyframes shineSweep {
+  0%   { transform: translateX(-160%); }
+  100% { transform: translateX(160%); }
+}
+
+/* =========================================================
+   3. TELA DE ABERTURA: O LABORATÓRIO SECRETO DA YZMA
+   ========================================================= */
+.lab-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: #06050b url('assets/yzma_secret_lab.jpg') center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(env(safe-area-inset-top) + 20px) 16px calc(env(safe-area-inset-bottom) + 32px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.lab-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(10, 4, 24, 0.4) 0%, rgba(5, 2, 15, 0.85) 100%);
+  pointer-events: none;
+}
+
+.lab-overlay.opened {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.12);
+}
+
+.lab-header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 10px;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.lab-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(192, 38, 211, 0.4), rgba(126, 34, 206, 0.7));
+  border: 1.5px solid var(--yzma-neon);
+  color: #ffd86b;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(192, 38, 211, 0.5);
+  margin-bottom: 12px;
+}
+
+.lab-title {
+  font-family: var(--font-royal);
+  font-size: clamp(22px, 6.5vw, 28px);
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.9), 0 0 25px rgba(245, 158, 11, 0.6);
+  line-height: 1.2;
+}
+
+.lab-subtitle {
+  font-size: 14px;
+  color: #e2e8f0;
+  margin-top: 6px;
+  font-weight: 600;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+}
+
+/* Caixa Central com as Alavancas */
+.levers-chamber {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 360px;
+  background: rgba(15, 12, 28, 0.82);
+  border: 2px solid rgba(245, 158, 11, 0.5);
+  border-radius: 24px;
+  padding: 24px 16px 20px;
+  box-shadow: 
+    0 15px 40px rgba(0, 0, 0, 0.8),
+    inset 0 0 30px rgba(126, 34, 206, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  animation: pulseChamber 3s infinite alternate ease-in-out;
+}
+
+@keyframes pulseChamber {
+  0% { box-shadow: 0 15px 40px rgba(0,0,0,0.8), inset 0 0 20px rgba(126, 34, 206, 0.3); border-color: rgba(245, 158, 11, 0.5); }
+  100% { box-shadow: 0 15px 50px rgba(192, 38, 211, 0.4), inset 0 0 35px rgba(245, 158, 11, 0.3); border-color: var(--gold-bright); }
+}
+
+.chamber-prompt {
+  font-family: var(--font-royal);
+  font-size: 18px;
+  font-weight: 800;
+  color: #fef08a;
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.levers-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  gap: 16px;
+}
+
+.lever-stone-device {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  flex: 1;
+  max-width: 155px;
+}
+
+.lever-stone-device:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.lever-stone-device:active {
+  transform: translateY(2px) scale(0.97);
+}
+
+.lever-stone-artwork {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 679 / 1174;
+  max-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.9));
+  transition: filter 0.35s ease, transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.lever-img-state {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: none;
+}
+
+.lever-img-state.img-up {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.lever-img-state.img-down {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.lever-stone-artwork.pulled .lever-img-state.img-up {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.lever-stone-artwork.pulled .lever-img-state.img-down {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.lever-stone-glow {
+  position: absolute;
+  inset: -10px;
+  border-radius: 20px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.red-glow {
+  background: radial-gradient(circle at 50% 60%, rgba(239, 68, 68, 0.6) 0%, transparent 72%);
+}
+
+.green-glow {
+  background: radial-gradient(circle at 50% 60%, rgba(52, 211, 153, 0.65) 0%, transparent 72%);
+}
+
+.lever-stone-artwork.pulled .red-glow {
+  opacity: 1;
+  animation: glowPulseRed 1s infinite alternate;
+}
+
+.lever-stone-artwork.pulled .green-glow {
+  opacity: 1;
+  animation: glowPulseGreen 1s infinite alternate;
+}
+
+@keyframes glowPulseRed {
+  from { filter: drop-shadow(0 0 15px rgba(239, 68, 68, 0.6)); }
+  to   { filter: drop-shadow(0 0 28px rgba(239, 68, 68, 0.95)); }
+}
+
+@keyframes glowPulseGreen {
+  from { filter: drop-shadow(0 0 18px rgba(52, 211, 153, 0.7)); }
+  to   { filter: drop-shadow(0 0 32px rgba(52, 211, 153, 1)); }
+}
+
+.lever-stone-label {
+  font-family: var(--font-royal);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #fef08a;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+  background: rgba(30, 16, 12, 0.92);
+  border: 1.5px solid rgba(245, 158, 11, 0.5);
+  padding: 4px 14px;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Alerta Cômico de Alçapão / Erro com Vídeo da Yzma (Tamanho Dobrado) */
+.trapdoor-alert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  background: 
+    var(--pat-stone-grain),
+    linear-gradient(180deg, #360714 0%, #1a0208 100%);
+  border: 3.5px solid var(--gold-bright);
+  border-radius: 20px;
+  padding: 16px 16px 14px;
+  max-width: 760px; /* Dobro de tamanho (era 380px) */
+  width: min(760px, 94vw);
+  max-height: 92vh;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 100;
+  box-shadow: 
+    0 0 0 9999px rgba(0, 0, 0, 0.78),
+    0 0 0 2px var(--gold-deep),
+    0 25px 60px rgba(0, 0, 0, 0.95),
+    0 0 45px rgba(245, 158, 11, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.trapdoor-alert.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.trapdoor-video-shell {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid rgba(245, 158, 11, 0.75);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.85);
+  background: #000;
+  line-height: 0;
+  aspect-ratio: 16 / 9;
+  max-height: calc(88vh - 85px);
+}
+
+.trapdoor-video-shell video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.trapdoor-btn {
+  margin-top: 14px;
+  width: 100%;
+  max-width: 460px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: 
+    var(--pat-stone-grain),
+    linear-gradient(180deg, #fff7d6 0%, #fcd34d 40%, #d97706 100%);
+  color: var(--wine-deep);
+  border: 1.5px solid #fff;
+  border-radius: 12px;
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(245, 158, 11, 0.45);
+  transition: transform 0.15s ease, filter 0.2s ease;
+}
+
+.trapdoor-btn:active {
+  transform: scale(0.97);
+  filter: brightness(0.95);
+}
+
+/* Yzma Animada Transparente */
+.yzma-chamber-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-bottom: -4px;
+  width: 100%;
+}
+
+.yzma-badge-video,
+.yzma-badge-img {
+  width: 135px;
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 8px 22px rgba(147, 51, 234, 0.6)) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.9));
+  pointer-events: none;
+  animation: yzmaFloat 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes yzmaFloat {
+  0% { transform: translateY(0px) rotate(-1deg); }
+  100% { transform: translateY(-6px) rotate(1.5deg); }
+}
+
+.yzma-trapdoor-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.yzma-trap-video,
+.yzma-trap-img {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 25px rgba(239, 68, 68, 0.7)) drop-shadow(0 4px 10px rgba(0, 0, 0, 0.9));
+  animation: yzmaShock 0.4s ease-in-out;
+}
+
+@keyframes yzmaShock {
+  0% { transform: scale(0.65) rotate(-6deg); }
+  50% { transform: scale(1.12) rotate(3deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+/* Pular Introdução */
+.skip-btn {
+  position: relative;
+  z-index: 2;
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px;
+  touch-action: manipulation;
+}
+
+/* =========================================================
+   4. ESTRUTURA PRINCIPAL (MOBILE-FIRST 9:16)
+   ========================================================= */
+.main-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 528px; /* 20% maior (de 440px para 528px) para comportar a formatação do decreto com folga */
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + 16px) 16px calc(env(safe-area-inset-bottom) + 115px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estandarte Imperial de Topo */
+.imperial-crest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  animation: crestFade 0.9s var(--ease-cinematic) both;
+}
+.crest-divider {
+  flex: 1;
+  height: 10px;
+  background: var(--pat-stepped) repeat-x center / 24px 10px;
+  opacity: 0.55;
+}
+.crest-title-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: rgba(37, 5, 15, 0.8);
+  border: 1px solid var(--gold-burnished);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+}
+.crest-title-badge svg {
+  width: 18px;
+  height: 18px;
+  color: var(--gold-primary);
+}
+
+/* =========================================================
+   5. NAVEGAÇÃO DE ABAS IMPERIAIS
+   ========================================================= */
+.imperial-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.5));
+}
+
+.tab-btn {
+  --b: 10px;
+  position: relative;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: 
+    var(--pat-stone-grain),
+    linear-gradient(180deg, #591024 0%, #360714 100%);
+  color: var(--gold-highlight);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  transition: all 0.3s var(--ease-cinematic);
+}
+
+.tab-btn::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  --b: 8px;
+  border: 1px solid rgba(252, 211, 77, 0.2);
+  pointer-events: none;
+}
+
+.tab-btn svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.25s var(--ease-elastic);
+}
+
+.tab-btn.active {
+  color: var(--wine-deep);
+  background: 
+    var(--pat-stone-grain),
+    linear-gradient(180deg, #fff7d6 0%, #fcd34d 40%, #d97706 100%);
+  border-color: #fff;
+  box-shadow: 0 4px 18px rgba(245, 158, 11, 0.5);
+  transform: translateY(-2px);
+}
+.tab-btn.active svg {
+  transform: scale(1.15);
+  color: var(--wine-deep);
+}
+
+/* Indicador com Notificação Pulsante */
+.tab-dot-pulse {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--emerald-light);
+  box-shadow: 0 0 10px var(--emerald-light);
+  animation: pulseGreen 1.8s infinite;
+}
+@keyframes pulseGreen {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  50% { transform: scale(1.35); opacity: 1; box-shadow: 0 0 14px var(--emerald-light); }
+  100% { transform: scale(0.9); opacity: 0.8; }
+}
+
+/* =========================================================
+   6. CONTEÚDO DAS ABAS (DECRETO, MENSAGEM, LABORATÓRIO)
+   ========================================================= */
+.view-panel {
+  display: none;
+  animation: panelEntrance 0.65s var(--ease-cinematic) both;
+}
+.view-panel.active {
+  display: block;
+}
+@keyframes panelEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+/* ---------- 6.1 A MOLDURA MONUMENTAL DO DECRETO (MODELO NANO BANANA) ---------- */
+.imperial-monumental-frame {
+  position: relative;
+  width: 100%;
+  filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.9));
+  margin: 0 auto;
+}
+
+.stone-frame-header-art {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+  margin-bottom: -6px;
+  z-index: 5;
+}
+
+.stone-frame-top-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px 18px 0 0;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.7));
+}
+
+.stone-frame-body-wrapper {
+  position: relative;
+  z-index: 3;
+  /* Pilares arquitetônicos de pedra e ouro nas laterais */
+  background: 
+    linear-gradient(90deg, 
+      #2b1f14 0%, 
+      #4a3723 2.5%, 
+      #85581c 5%, 
+      #f59e0b 6.5%, 
+      #6e4210 8%, 
+      transparent 8.5%, 
+      transparent 91.5%, 
+      #6e4210 92%, 
+      #f59e0b 93.5%, 
+      #85581c 95%, 
+      #4a3723 97.5%, 
+      #2b1f14 100%
+    );
+  padding: 0 14px;
+  border-left: 6px solid #24170d;
+  border-right: 6px solid #24170d;
+  box-shadow: 
+    inset 14px 0 28px rgba(0, 0, 0, 0.8),
+    inset -14px 0 28px rgba(0, 0, 0, 0.8);
+}
+
+.stone-framed-content {
+  position: relative;
+  padding: 28px 24px 24px;
+  color: var(--ink-primary);
+  text-align: center;
+  background: 
+    var(--pat-stone-grain),
+    radial-gradient(110% 70% at 50% 25%, #fffdf8 0%, #faeed1 45%, #ebd69d 100%);
+  border-left: 2px solid rgba(245, 158, 11, 0.55);
+  border-right: 2px solid rgba(245, 158, 11, 0.55);
+  box-shadow: 
+    inset 0 0 35px rgba(180, 83, 9, 0.22),
+    0 0 16px rgba(0, 0, 0, 0.35);
+}
+
+.stone-frame-footer-art {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+  margin-top: -6px;
+  z-index: 5;
+}
+
+.stone-frame-bottom-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 0 18px 18px;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.9));
+}
+
+.decree-sup {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--turq-deep);
+  margin-bottom: 4px;
+}
+
+.decree-brand-title {
+  font-family: var(--font-royal);
+  font-size: clamp(24px, 7.5vw, 32px);
+  font-weight: 900;
+  color: var(--wine-primary);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.inca-sun-divider {
+  width: 220px;
+  height: 18px;
+  margin: 12px auto 6px;
+  color: var(--gold-deep);
+}
+
+/* O Herói: Ilustração Real do Imperador Oliver */
+.oliver-art-stage {
+  position: relative;
+  margin: 14px auto 16px;
+  max-width: 384px; /* 20% maior para destacar a arte nobre */
+  width: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: transform 0.25s var(--ease-elastic);
+}
+.oliver-art-stage:active {
+  transform: scale(0.98);
+}
+.oliver-art-frame {
+  --b: 14px;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 3.5px solid var(--gold-bright);
+  box-shadow: 
+    0 0 0 2px var(--gold-deep),
+    0 12px 28px rgba(69, 26, 3, 0.4),
+    inset 0 0 14px rgba(245, 158, 11, 0.2);
+  background: #faeed1;
+}
+.oliver-art-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
+/* O Herói: Kuzco Lhama sobre o Disco Solar Imperial */
+.kuzco-hero-stage {
+  position: relative;
+  height: 285px;
+  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.kuzco-sun-disk {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  bottom: 12px;
+  background: radial-gradient(circle at 40% 35%, #fffdf0 0%, #fcd34d 42%, #d97706 72%, #78350f 100%);
+  border: 5px solid var(--turq-primary);
+  box-shadow: 
+    0 0 0 4px var(--gold-bright),
+    0 0 0 6px var(--gold-deep),
+    0 12px 30px rgba(146, 64, 14, 0.4);
+}
+.kuzco-sun-disk::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(120, 53, 15, 0.5);
+}
+
+.kuzco-sun-rays {
+  position: absolute;
+  width: 275px;
+  height: 275px;
+  bottom: -10px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    var(--gold-primary) 0deg 6deg,
+    transparent 6deg 18deg
+  );
+  -webkit-mask: radial-gradient(circle, transparent 52%, #000 53%, #000 68%, transparent 69%);
+  mask: radial-gradient(circle, transparent 52%, #000 53%, #000 68%, transparent 69%);
+  opacity: 0.8;
+  animation: spinSlow 50s linear infinite;
+}
+
+.kuzco-llama-img {
+  position: relative;
+  z-index: 2;
+  height: 275px;
+  width: auto;
+  filter: drop-shadow(0 12px 14px rgba(56, 17, 11, 0.35));
+  transform-origin: 50% 100%;
+  animation: llamaIdle 5s ease-in-out infinite alternate;
+}
+.kuzco-hero-stage:active .kuzco-llama-img {
+  animation: llamaJump 0.6s var(--ease-elastic) forwards;
+}
+@keyframes llamaIdle {
+  0%   { transform: rotate(-1deg) scaleY(1); }
+  100% { transform: rotate(1.2deg) scaleY(1.02); }
+}
+@keyframes llamaJump {
+  0%   { transform: translateY(0); }
+  45%  { transform: translateY(-22px) rotate(-4deg); }
+  100% { transform: translateY(0); }
+}
+
+/* Tipografia do Decreto: "Oliver faz 2 anos" */
+.decree-sub-call {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-secondary);
+  margin-top: 14px;
+}
+
+.decree-child-name {
+  font-family: var(--font-hero);
+  font-size: clamp(56px, 17vw, 76px);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  margin: 6px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  user-select: none;
+}
+
+.decree-child-name .anim-letter {
+  display: inline-block;
+  background: linear-gradient(180deg, #fff7d6 0%, #fcd34d 40%, #d97706 75%, #78350f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: 
+    drop-shadow(1px 0 0 var(--wine-deep))
+    drop-shadow(-1px 0 0 var(--wine-deep))
+    drop-shadow(0 2px 0 var(--wine-deep))
+    drop-shadow(0 4px 0 var(--wine-deep))
+    drop-shadow(0 8px 12px rgba(76, 5, 25, 0.35));
+  animation: oliverLetterWave 2.8s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 0.14s);
+  transform-origin: 50% 85%;
+  will-change: transform;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.decree-child-name .anim-letter:hover {
+  transform: translateY(-9px) scale(1.15) rotate(-3deg);
+}
+
+@keyframes oliverLetterWave {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  20% {
+    transform: translateY(-7px) rotate(-2deg) scale(1.04);
+  }
+  40% {
+    transform: translateY(-2px) rotate(1deg) scale(1.01);
+  }
+  60% {
+    transform: translateY(2px) rotate(1.2deg) scale(0.99);
+  }
+  80% {
+    transform: translateY(-1px) rotate(-0.5deg) scale(1);
+  }
+}
+
+.decree-age-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: var(--font-hero);
+  font-size: 26px;
+  color: var(--wine-primary);
+  margin-bottom: 12px;
+  user-select: none;
+}
+
+.decree-word {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.anim-letter-sub {
+  display: inline-block;
+  animation: subLetterWave 2.4s ease-in-out infinite;
+  animation-delay: calc(var(--j) * 0.1s);
+  transform-origin: 50% 80%;
+  will-change: transform;
+  transition: transform 0.2s ease;
+}
+
+.decree-age-badge-row .anim-letter-sub:hover {
+  transform: translateY(-5px) scale(1.18) rotate(-3deg);
+  color: var(--gold-deep);
+}
+
+@keyframes subLetterWave {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-3.5px) rotate(-1.5deg);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(1.5px) rotate(1deg);
+  }
+}
+
+.age-sun-coin {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  font-family: var(--font-hero);
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--wine-deep);
+  background: radial-gradient(circle at 35% 30%, #fffbe6, #fcd34d 45%, #d97706 100%);
+  border: 2px solid #fff;
+  box-shadow: 
+    0 0 0 3px var(--turq-primary),
+    0 0 0 5px var(--gold-primary),
+    0 6px 14px rgba(56, 17, 11, 0.3);
+  animation: sunCoinBounce 2.6s ease-in-out infinite;
+  animation-delay: 0.3s;
+  will-change: transform, box-shadow;
+  transition: transform 0.25s var(--ease-elastic);
+  cursor: pointer;
+}
+
+.age-sun-coin:hover {
+  transform: translateY(-6px) rotate(4deg) scale(1.1);
+}
+
+.age-num-bounce {
+  display: inline-block;
+  animation: numPop 2.6s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes sunCoinBounce {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+    box-shadow: 
+      0 0 0 3px var(--turq-primary),
+      0 0 0 5px var(--gold-primary),
+      0 6px 14px rgba(56, 17, 11, 0.3);
+  }
+  50% {
+    transform: translateY(-5px) rotate(2.5deg) scale(1.05);
+    box-shadow: 
+      0 0 0 3px var(--turq-light),
+      0 0 0 5px var(--gold-bright),
+      0 0 16px rgba(245, 158, 11, 0.45),
+      0 10px 20px rgba(56, 17, 11, 0.35);
+  }
+}
+
+@keyframes numPop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .decree-child-name .anim-letter,
+  .anim-letter-sub,
+  .age-sun-coin,
+  .age-num-bounce {
+    animation: none !important;
+  }
+}
+
+.decree-convocation-lead {
+  max-width: 390px;
+  margin: 0 auto 20px;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--ink-secondary);
+}
+.decree-convocation-lead strong {
+  color: var(--wine-primary);
+  font-weight: 800;
+}
+
+/* Cards Informativos (Data, Horário, Local) */
+.event-info-grid {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.info-plaque {
+  --b: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 15px;
+  background: linear-gradient(180deg, #fcd34d, #b45309);
+  box-shadow: 0 4px 12px rgba(56, 17, 11, 0.15);
+}
+.info-plaque::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  --b: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #faf1db 100%);
+}
+.info-plaque > * {
+  position: relative;
+  z-index: 2;
+}
+
+.info-icon-stamp {
+  --b: 8px;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: linear-gradient(145deg, var(--turq-bright), var(--turq-shadow));
+  border: 1px solid var(--gold-bright);
+}
+.info-icon-stamp svg {
+  width: 22px;
+  height: 22px;
+}
+
+.info-texts h4 {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--wine-primary);
+}
+.info-texts p {
+  font-size: 17.5px;
+  font-weight: 800;
+  color: var(--ink-primary);
+  line-height: 1.2;
+  margin: 2px 0;
+}
+.info-texts span {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+/* Contador Regressivo Imperial */
+.imperial-countdown {
+  --b: 14px;
+  padding: 14px 12px 12px;
+  margin-bottom: 22px;
+  background: 
+    var(--pat-stepped) repeat center / 24px 12px,
+    linear-gradient(180deg, var(--wine-primary) 0%, var(--wine-deep) 100%);
+  border: 2px solid var(--gold-bright);
+  color: #fff;
+}
+.countdown-tag {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+}
+.countdown-digits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.cd-box {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(252, 211, 77, 0.3);
+  border-radius: 6px;
+  padding: 8px 0 6px;
+}
+.cd-box-num {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--gold-highlight);
+  line-height: 1;
+}
+.cd-box-lbl {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+  margin-top: 4px;
+}
+
+/* Moldura Oficial dos Personagens */
+.cast-frame-wrapper {
+  margin-bottom: 18px;
+}
+.cast-photo-frame {
+  --b: 14px;
+  padding: 3px;
+  background: linear-gradient(145deg, var(--gold-bright), var(--gold-deep));
+  box-shadow: 0 8px 18px rgba(56, 17, 11, 0.25);
+}
+.cast-photo-frame img {
+  --b: 12px;
+  width: 100%;
+  aspect-ratio: 739 / 415;
+  object-fit: cover;
+}
+.cast-caption-text {
+  font-size: 12.5px;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  margin-top: 8px;
+}
+
+.groove-final-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-royal);
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--wine-primary);
+  margin-top: 14px;
+  padding: 0 4px;
+}
+.groove-final-quote svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--turq-primary);
+}
+.groove-final-quote svg:last-child {
+  transform: scaleX(-1);
+}
+
+/* ---------- 6.2 TRANSMISSÃO REAL: VÍDEO DO KUZCO ---------- */
+.panel-headline {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.panel-kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--turq-light);
+}
+.panel-main-title {
+  font-family: var(--font-royal);
+  font-size: clamp(22px, 6.5vw, 28px);
+  margin-top: 6px;
+  background: linear-gradient(180deg, #ffffff 0%, #fcd34d 45%, #d97706 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+}
+.panel-subtitle {
+  font-size: 13.5px;
+  color: var(--papyrus-main);
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.video-cinematic-card {
+  --b: 18px;
+  padding: 4px;
+  background: linear-gradient(160deg, #fff7d6 0%, #f59e0b 40%, #0e7490 80%, #fcd34d 100%);
+  filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.7));
+  margin-bottom: 18px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-screen-box {
+  --b: 15px;
+  position: relative;
+  background: #000;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  max-height: 68vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.video-screen-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+}
+
+/* Botão Play Solar Dourado */
+.solar-play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 90px;
+  height: 90px;
+  margin: -45px 0 0 -45px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fffbe6 0%, #fcd34d 35%, #d97706 75%, #78350f 100%);
+  border: 3px solid #fff;
+  box-shadow: 
+    0 0 0 5px var(--turq-bright),
+    0 0 0 8px var(--gold-burnished),
+    0 16px 35px rgba(0, 0, 0, 0.8);
+  display: grid;
+  place-items: center;
+  color: var(--wine-deep);
+  transition: transform 0.3s var(--ease-elastic), opacity 0.4s ease;
+  z-index: 5;
+}
+.solar-play-btn svg {
+  width: 38px;
+  height: 38px;
+  margin-left: 5px;
+}
+.solar-play-btn:active {
+  transform: scale(0.92);
+}
+.video-screen-box.playing .solar-play-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.7);
+}
+
+.video-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.video-progress-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--turq-bright), var(--gold-bright));
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+
+.video-instructions-pill {
+  --b: 10px;
+  padding: 12px 14px;
+  text-align: center;
+  font-size: 13px;
+  background: rgba(37, 5, 15, 0.85);
+  border: 1px solid var(--gold-burnished);
+  color: var(--gold-highlight);
+}
+.video-instructions-pill strong {
+  color: var(--gold-bright);
+}
+
+/* =========================================================
+   7. BARRA FIXA DE AÇÕES IMPERIAIS (DOCK MOBILE)
+   ========================================================= */
+.imperial-actionbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 16px 14px calc(env(safe-area-inset-bottom) + 12px);
+  background: linear-gradient(180deg, transparent 0%, rgba(21, 2, 9, 0.92) 35%, #150209 100%);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  transform: translateY(120%);
+  transition: transform 0.8s var(--ease-cinematic) 0.3s;
+}
+
+body.revealed .imperial-actionbar {
+  transform: translateY(0);
+}
+
+.actionbar-pill-grid {
+  pointer-events: auto;
+  width: 100%;
+  max-width: 504px;
+  display: grid;
+  grid-template-columns: 1fr 68px 68px;
+  gap: 8px;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.7));
+}
+
+/* Botão Placa Dourada: RSVP WhatsApp */
+.btn-plaque-rsvp {
+  --b: 14px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 16px;
+  text-decoration: none;
+  color: var(--wine-deep);
+  background: linear-gradient(180deg, #fffbeb 0%, #fcd34d 30%, #d97706 70%, #92400e 100%);
+  border: 1px solid #fff;
+  transition: transform 0.25s var(--ease-elastic);
+}
+.btn-plaque-rsvp::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  --b: 12px;
+  border: 1px solid rgba(120, 53, 15, 0.4);
+  pointer-events: none;
+}
+.btn-plaque-rsvp svg {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  color: var(--wine-deep);
+}
+.rsvp-plaque-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1;
+}
+.rsvp-plaque-text small {
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--wine-primary);
+  margin-bottom: 4px;
+}
+.rsvp-plaque-text strong {
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+/* Botões Auxiliares: Local e Agenda */
+.btn-stone-aux {
+  --b: 12px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, var(--turq-bright) 0%, var(--turq-primary) 50%, var(--turq-shadow) 100%);
+  border: 1px solid var(--gold-bright);
+  transition: transform 0.25s var(--ease-elastic);
+}
+.btn-stone-aux::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  --b: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  pointer-events: none;
+}
+.btn-stone-aux svg {
+  width: 22px;
+  height: 22px;
+}
+
+.btn-plaque-rsvp:active, .btn-stone-aux:active {
+  transform: scale(0.95);
+}
+
+/* =========================================================
+   8. EFEITOS ESPECIAIS: FUMAÇA MÁGICA & PARTICULAS
+   ========================================================= */
+#confettiCanvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1100;
+}
+
+.magic-smoke-cloud {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1050;
+  overflow: hidden;
+}
+
+.smoke-puff-particle {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  margin: -70px 0 0 -70px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--puff-tint, rgba(244, 63, 94, 0.55)) 0%, rgba(244, 63, 94, 0) 70%);
+  filter: blur(10px);
+  opacity: 0;
+  animation: puffFloat 1.2s var(--ease-cinematic) forwards;
+}
+@keyframes puffFloat {
+  0%   { opacity: 0; transform: translate(0, 0) scale(0.3); }
+  35%  { opacity: 0.85; }
+  100% { opacity: 0; transform: translate(var(--dx, 0), var(--dy, -50px)) scale(var(--ds, 2.2)); }
+}
+
+/* Toast Imperial */
+.imperial-toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(env(safe-area-inset-bottom) + 90px);
+  z-index: 1200;
+  transform: translate(-50%, 25px);
+  opacity: 0;
+  pointer-events: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(37, 5, 15, 0.95);
+  border: 1px solid var(--gold-bright);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6), 0 0 15px rgba(245, 158, 11, 0.35);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold-highlight);
+  transition: all 0.4s var(--ease-elastic);
+}
+.imperial-toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+</style>
+</head>
+
+<body class="lock-scroll">
+
+<!-- Áudios Pré-carregados para Execução Imediata Sem Delay -->
+<audio id="yzmaIntroAudioEl" src="assets/yzma_puxe_alavanca_intro.mp3" preload="auto" autoplay playsinline></audio>
+<audio id="temploPortalAudioEl" src="assets/abertura_maestral.mp3" preload="auto" playsinline></audio>
+
+
+<!-- =========================================================
+     SPRITE VETORIAL SVG (Traços Finos e Ícones Imperiais)
+     ========================================================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Silhueta da Lhama Imperial com Coroa Solar -->
+    <symbol id="icon-llama-crown" viewBox="0 0 64 70">
+      <polygon fill="currentColor" points="38.5,23 40,17 38,8 41.5,14 48.5,14 51.5,8 50.5,17 55,20 55.5,24.5 47,26.5 45.5,39 46,52 45,64 41.5,64 41,54 38.5,54 38,64 34.5,64 33.5,53 21,53 20,64 16.5,64 16,54 13.5,54 13,64 9.5,64 9.5,46 7,43 5,39 8,37.5 11,39.5 38,38"/>
+      <g fill="var(--gold-bright)">
+        <path d="M39.6 15.2A5.4 5.4 0 0 1 50.4 15.2Z"/>
+        <path d="M44.4 10.4 45 5.6 45.6 10.4Z"/>
+        <circle cx="45" cy="5" r="1.2"/>
+      </g>
+    </symbol>
+
+    <!-- Ícone Decreto / Pergaminho -->
+    <symbol id="icon-scroll" viewBox="0 0 24 24">
+      <path d="M8 3.5h10.5a2 2 0 0 1 2 2V7h-4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M16 5.5v12a3 3 0 0 1-3 3H6a2.5 2.5 0 0 1-2.5-2.5V17H13v1a2.5 2.5 0 0 0 5 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M8 3.5a2 2 0 0 0-2 2V17" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M9 9.5h4M9 13h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Ícone Transmissão / Sol de Vídeo -->
+    <symbol id="icon-video-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="6.2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <polygon points="10.5,9.5 15,12 10.5,14.5" fill="currentColor"/>
+      <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Ícone Calendário Inca -->
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M3.5 9.5h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M7 16h2v-2h2v-2h2v2h2v2h2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+    </symbol>
+
+    <!-- Ícone Relógio Solar -->
+    <symbol id="icon-sun-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="5.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M12 9.5V12l2 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M5.3 18.7l1.5-1.5M17.2 6.8l1.5-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Ícone Templo / Local -->
+    <symbol id="icon-temple" viewBox="0 0 24 24">
+      <path d="M2.5 20.5h19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M4 20.5v-3h16v3M6 17.5v-3h12v3M8 14.5v-3h8v3M9.8 11.5V8.5h4.4v3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M10.8 20.5v-2a1.2 1.2 0 0 1 2.4 0v2M12 8.5V5.5M10.5 5.5h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Ícone Pin Mapa -->
+    <symbol id="icon-map-pin" viewBox="0 0 24 24">
+      <path d="M12 21.5s-7-6-7-11.5a7 7 0 0 1 14 0c0 5.5-7 11.5-7 11.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="12" cy="10" r="2.8" fill="currentColor"/>
+    </symbol>
+
+    <!-- Ícone WhatsApp Fino e Polido -->
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/>
+    </symbol>
+
+    <!-- Ícone Salvar Calendário -->
+    <symbol id="icon-calendar-add" viewBox="0 0 24 24">
+      <rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M3.5 9.5h17M8 3v4M16 3v4M12 12.5v5.5M9.3 15.2h5.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="icon-play-triangle" viewBox="0 0 24 24">
+      <polygon points="7,4.5 19,12 7,19.5" fill="currentColor"/>
+    </symbol>
+    </defs>
+</svg>
+
+<!-- =========================================================
+     TELA DE ABERTURA: O LABORATÓRIO SECRETO DA YZMA
+     ========================================================= -->
+<div id="labOverlay" class="lab-overlay" role="dialog" aria-label="Acesso ao Laboratório Secreto">
+  
+  <div class="lab-header">
+    <div class="lab-badge">
+      <span>🧪</span>
+      <span>Acesso Restrito ao Império</span>
+    </div>
+    <h1 class="lab-title">O Laboratório Secreto</h1>
+    <p class="lab-subtitle">Puxe a alavanca para revelar o convite do Oliver!</p>
+  </div>
+
+  <!-- Alerta de Alçapão / Vídeo Cômico da Yzma Caindo -->
+  <div id="trapdoorAlert" class="trapdoor-alert bevel-box" role="dialog" aria-label="Alçapão Secreto">
+    <div class="trapdoor-video-shell bevel-box">
+      <video id="yzmaTrapVideo" playsinline webkit-playsinline preload="auto">
+        <source src="assets/A_Nova_Onda_do_Imperador_Yzma_Kronk_06_ao_fim_FullHD.mp4" type="video/mp4">
+      </video>
+    </div>
+    <button class="trapdoor-btn shine-gold" onclick="closeTrapAlert()">Tentar a Outra Alavanca! 🦙</button>
+  </div>
+
+  <!-- A Câmara das Alavancas -->
+  <div class="levers-chamber">
+    <div class="chamber-prompt">
+      <span>⚠️</span>
+      <span>"Puxe a alavanca, Kronk!"</span>
+    </div>
+
+    <div class="levers-row">
+      <!-- Alavanca 1 (A Errada / Alçapão - Onça) -->
+      <div class="lever-stone-device" id="unitWrong" onclick="pullWrongLever()" role="button" aria-label="Puxar Alavanca 1 (Onça / Alçapão)">
+        <div class="lever-stone-artwork" id="socketWrong">
+          <img class="lever-img-state img-up" src="assets/lever_jaguar_up.png" alt="Alavanca da Onça">
+          <img class="lever-img-state img-down" src="assets/lever_jaguar_down.png" alt="Alavanca da Onça Acionada">
+          <div class="lever-stone-glow red-glow"></div>
+        </div>
+        <span class="lever-stone-label">🐆 Alavanca 1</span>
+      </div>
+
+      <!-- Alavanca 2 (A Certa / Palácio Imperial - Lhama) -->
+      <div class="lever-stone-device" id="unitRight" onclick="pullRightLever()" role="button" aria-label="Puxar Alavanca 2 (Lhama / Convite)">
+        <div class="lever-stone-artwork" id="socketRight">
+          <img class="lever-img-state img-up" src="assets/lever_llama_up.png" alt="Alavanca da Lhama">
+          <img class="lever-img-state img-down" src="assets/lever_llama_down.png" alt="Alavanca da Lhama Acionada">
+          <div class="lever-stone-glow green-glow"></div>
+        </div>
+        <span class="lever-stone-label">🦙 Alavanca 2</span>
+      </div>
+    </div>
+
+    <p style="font-size: 11px; color: #a78bfa; text-align: center; margin-top: 4px;">
+      Toque na alavanca certa para abrir o Palácio de Kuzcotopia
+    </p>
+  </div>
+
+  <button class="skip-btn" onclick="skipIntroDirectly()">Pular introdução e assistir ao recado ➔</button>
+</div>
+
+<!-- =========================================================
+     CORPO DA APLICAÇÃO (CONVITE INTERATIVO)
+     ========================================================= -->
+<main class="main-wrapper" id="mainApp">
+
+  <!-- Estandarte Superior -->
+  <header class="imperial-crest">
+    <span class="crest-divider"></span>
+    <div class="crest-title-badge">
+      <svg viewBox="0 0 64 70"><use href="#icon-llama-crown"/></svg>
+      <span>Império de Kuzco</span>
+    </div>
+    <span class="crest-divider"></span>
+  </header>
+
+  <!-- Abas de Navegação -->
+  <nav class="imperial-tabs" role="tablist">
+    <button class="tab-btn bevel-box shine-gold" role="tab" aria-selected="false" data-target="panel-decreto">
+      <svg><use href="#icon-scroll"/></svg>
+      <span>Decreto</span>
+    </button>
+    
+    <button class="tab-btn bevel-box shine-gold active" role="tab" aria-selected="true" data-target="panel-mensagem">
+      <svg><use href="#icon-video-sun"/></svg>
+      <span>Mensagem</span>
+    </button>
+  </nav>
+
+  <!-- =======================================================
+       ABA 1: O DECRETO IMPERIAL (PAPIRO & DADOS DO EVENTO)
+       ======================================================= -->
+  <section class="view-panel" id="panel-decreto" role="tabpanel">
+    <div class="imperial-monumental-frame">
+      <!-- Viga Superior: O Sol Inca, Lhamas Douradas e Cantoneiras de Cabeça de Lhama -->
+      <div class="stone-frame-header-art">
+        <img src="assets/stone_frame_top.png" alt="Frontão Imperial de Pedra e Ouro" class="stone-frame-top-img">
+      </div>
+
+      <!-- Corpo da Moldura: Pilares de Pedra Inca com Gregas Douradas e Folha Imperial Central -->
+      <div class="stone-frame-body-wrapper">
+        <article class="papyri-sheet bevel-box stone-framed-content">
+            
+            <h2 class="decree-brand-title">O Lhama-Palooza vai ferver!!!</h2>
+            
+            <svg class="inca-sun-divider" viewBox="0 0 210 16">
+              <path d="M0 8h72M138 8h72" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M76 8l4-4 4 4-4 4zM126 8l4-4 4 4-4 4z" fill="currentColor"/>
+              <path d="M90 13h5v-4h4V5h12v4h4v4h5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <rect x="103" y="8" width="4" height="4" fill="currentColor"/>
+            </svg>
+
+            <!-- Herói: Ilustração Real do Imperador Oliver -->
+            <div class="oliver-art-stage" id="kuzcoHero" title="Imperador Oliver!">
+              <div class="oliver-art-frame bevel-box">
+                <img class="oliver-art-img" src="assets/oliver_imperador_arte.jpg" alt="Imperador Oliver - O Lhama-Palooza vai ferver">
+              </div>
+            </div>
+
+            <p class="decree-sub-call">Por convocação imperial de</p>
+            <h1 class="decree-child-name" aria-label="Oliver">
+              <span class="anim-letter" style="--i: 0;">O</span>
+              <span class="anim-letter" style="--i: 1;">l</span>
+              <span class="anim-letter" style="--i: 2;">i</span>
+              <span class="anim-letter" style="--i: 3;">v</span>
+              <span class="anim-letter" style="--i: 4;">e</span>
+              <span class="anim-letter" style="--i: 5;">r</span>
+            </h1>
+            
+            <div class="decree-age-badge-row" aria-label="faz 2 anos!">
+              <span class="decree-word">
+                <span class="anim-letter-sub" style="--j: 0;">f</span>
+                <span class="anim-letter-sub" style="--j: 1;">a</span>
+                <span class="anim-letter-sub" style="--j: 2;">z</span>
+              </span>
+              <div class="age-sun-coin" title="2 anos do Imperador Oliver!">
+                <span class="age-num-bounce">2</span>
+              </div>
+              <span class="decree-word">
+                <span class="anim-letter-sub" style="--j: 4;">a</span>
+                <span class="anim-letter-sub" style="--j: 5;">n</span>
+                <span class="anim-letter-sub" style="--j: 6;">o</span>
+                <span class="anim-letter-sub" style="--j: 7;">s</span>
+                <span class="anim-letter-sub" style="--j: 8;">!</span>
+              </span>
+            </div>
+
+            <p class="decree-convocation-lead">
+              Você é nosso convidado de honra para a festa mais <strong>groovada e divertida</strong> de todo o império!
+            </p>
+
+            <!-- Informações Nobres do Evento -->
+            <div class="event-info-grid">
+              
+              <!-- Data -->
+              <div class="info-plaque bevel-box">
+                <div class="info-icon-stamp bevel-box">
+                  <svg><use href="#icon-calendar"/></svg>
+                </div>
+                <div class="info-texts">
+                  <h4>Data Real</h4>
+                  <p>16 de janeiro</p>
+                  <span>Sábado</span>
+                </div>
+              </div>
+
+              <!-- Horário -->
+              <div class="info-plaque bevel-box">
+                <div class="info-icon-stamp bevel-box">
+                  <svg><use href="#icon-sun-clock"/></svg>
+                </div>
+                <div class="info-texts">
+                  <h4>Horário</h4>
+                  <p>Às 19:00 horas</p>
+                  <span>Pontualidade Imperial</span>
+                </div>
+              </div>
+
+              <!-- Local -->
+              <div class="info-plaque bevel-box">
+                <div class="info-icon-stamp bevel-box">
+                  <svg><use href="#icon-temple"/></svg>
+                </div>
+                <div class="info-texts">
+                  <h4>Localização</h4>
+                  <p>Edifício Sports Garden</p>
+                  <span>Toque em "Local" abaixo para rota GPS</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Contador Regressivo -->
+            <div class="imperial-countdown bevel-box">
+              <p class="countdown-tag" id="countdownLabel">Tempo para o Grande Ritmo</p>
+              <div class="countdown-digits">
+                <div class="cd-box"><div class="cd-box-num" id="cdDays">--</div><div class="cd-box-lbl">Dias</div></div>
+                <div class="cd-box"><div class="cd-box-num" id="cdHours">--</div><div class="cd-box-lbl">Horas</div></div>
+                <div class="cd-box"><div class="cd-box-num" id="cdMins">--</div><div class="cd-box-lbl">Min</div></div>
+                <div class="cd-box"><div class="cd-box-num" id="cdSecs">--</div><div class="cd-box-lbl">Seg</div></div>
+              </div>
+            </div>
+
+            <!-- Moldura da Turma Oficial -->
+            <div class="cast-frame-wrapper">
+              <div class="cast-photo-frame bevel-box">
+                <img class="bevel-box" src="assets/turma_oficial.png" alt="Turma de A Nova Onda do Imperador celebrando">
+              </div>
+              <p class="cast-caption-text">Com Kuzco, Pacha, Kronk e a inconfundível Yzma</p>
+            </div>
+
+            <p class="groove-final-quote">
+              <svg viewBox="0 0 64 70"><use href="#icon-llama-crown"/></svg>
+              <span>“Boo-yah! Bem-vindos à Kuzcotopia, meu refúgio de verão definitivo, com direito a toboágua!”</span>
+              <svg viewBox="0 0 64 70"><use href="#icon-llama-crown"/></svg>
+            </p>
+
+          </article>
+      </div>
+
+      <!-- Viga Inferior: Base de Pedra com Pirâmides e Cabeças de Lhama Douradas -->
+      <div class="stone-frame-footer-art">
+        <img src="assets/stone_frame_bottom.png" alt="Base Imperial de Pedra e Ouro" class="stone-frame-bottom-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================
+       ABA 2: TRANSMISSÃO REAL (VÍDEO DO KUZCO)
+       ======================================================= -->
+  <section class="view-panel active" id="panel-mensagem" role="tabpanel">
+    <div class="panel-headline">
+      <span class="panel-kicker">Transmissão Direta do Trono</span>
+      <h2 class="panel-main-title">A Mensagem do Kuzco</h2>
+      <p class="panel-subtitle">Aumente o volume. O Imperador quer falar com você!</p>
+    </div>
+
+    <div class="video-cinematic-card bevel-box">
+      <div class="video-screen-box bevel-box" id="videoBox">
+        <video id="kuzcoVideoPlayer" playsinline webkit-playsinline preload="auto" poster="assets/video_poster.jpg">
+          <source src="assets/final_llama_v9.mp4" type="video/mp4">
+        </video>
+
+        <button class="solar-play-btn shine-gold" id="btnPlayVideo" aria-label="Reproduzir Vídeo do Kuzco">
+          <svg><use href="#icon-play-triangle"/></svg>
+        </button>
+
+        <div class="video-progress-bar">
+          <span id="videoProgressBar"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-instructions-pill bevel-box">
+      Toque no vídeo para pausar. Depois, confirme sua presença no botão dourado <strong>Confirmar Presença</strong> abaixo!
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     BARRA FIXA DE AÇÕES IMPERIAIS (RODAPÉ)
+     ========================================================= -->
+<div class="imperial-actionbar">
+  <div class="actionbar-pill-grid">
+    
+    <!-- Confirmar Presença (WhatsApp RSVP) -->
+    <a class="btn-plaque-rsvp bevel-box shine-gold" id="btnRsvpWhatsApp" target="_blank" rel="noopener"
+       href="https://wa.me/?text=Ol%C3%A1!%20Recebi%20o%20decreto%20imperial%20e%20confirmo%20minha%20presen%C3%A7a%20no%20Llama-Palooza%20do%20Oliver%20(2%20anos)%2C%20dia%2016%20de%20janeiro%20%C3%A0s%2019h%2C%20no%20Edif%C3%ADcio%20Sports%20Garden!">
+      <svg><use href="#icon-whatsapp"/></svg>
+      <div class="rsvp-plaque-text">
+        <small>Decreto Oficial</small>
+        <strong>Confirmar presença</strong>
+      </div>
+    </a>
+
+    <!-- Localização no Maps -->
+    <a class="btn-stone-aux bevel-box shine-gold" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/search/?api=1&query=Edif%C3%ADcio%20Sports%20Garden" aria-label="Ver Local no Google Maps">
+      <svg><use href="#icon-map-pin"/></svg>
+      <span>Local</span>
+    </a>
+
+    <!-- Salvar na Agenda -->
+    <a class="btn-stone-aux bevel-box shine-gold" id="btnSaveCalendar" target="_blank" rel="noopener" href="#" aria-label="Salvar no Calendário">
+      <svg><use href="#icon-calendar-add"/></svg>
+      <span>Agenda</span>
+    </a>
+
+  </div>
+</div>
+
+<!-- Efeitos Globais: Fumaça Rosa & Confetes -->
+<div class="magic-smoke-cloud" id="magicSmokeLayer"></div>
+<canvas id="confettiCanvas"></canvas>
+<div class="imperial-toast" id="imperialToast"></div>
+
+<!-- =========================================================
+     SCRIPTS & MOTOR DE INTERAÇÕES
+     ========================================================= -->
+<script>
+(() => {
+  'use strict';
+
+  const $ = (sel, parent = document) => parent.querySelector(sel);
+  const $$ = (sel, parent = document) => [...parent.querySelectorAll(sel)];
+  const urlParams = new URLSearchParams(location.search);
+  const isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* =========================================================
+     1. SISTEMA DE ÁUDIO SINTETIZADO (Web Audio API)
+     ========================================================= */
+  let audioContext = null;
+  function getAudioCtx() {
+    if (!audioContext) {
+      try {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      } catch (e) {
+        return null;
+      }
+    }
+    if (audioContext.state === 'suspended') audioContext.resume();
+    return audioContext;
+  }
+
+  function emitTone(freq, type = 'sine', duration = 0.2, delay = 0, volume = 0.05, slideFreq = null) {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    const t = ctx.currentTime + delay;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, t);
+    if (slideFreq) {
+      osc.frequency.exponentialRampToValueAtTime(slideFreq, t + duration);
+    }
+
+    gain.gain.setValueAtTime(0.0001, t);
+    gain.gain.exponentialRampToValueAtTime(volume, t + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + duration);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(t);
+    osc.stop(t + duration + 0.05);
+  }
+
+  const imperialSounds = {
+    fanfare() {
+      [[523.25, 0], [659.25, 0.12], [783.99, 0.25], [1046.5, 0.4]].forEach(([f, d]) => {
+        emitTone(f, 'triangle', 0.5, d, 0.06);
+      });
+    },
+    bubble() {
+      [0, 0.08, 0.16, 0.24].forEach((d, i) => {
+        emitTone(440 + i * 160, 'sine', 0.1, d, 0.05, 780 + i * 180);
+      });
+    },
+    leverCreak() {
+      emitTone(160, 'sawtooth', 0.25, 0, 0.03, 90);
+    },
+    trapDoor() {
+      emitTone(420, 'square', 0.5, 0, 0.035, 75);
+      emitTone(80, 'sine', 0.45, 0.35, 0.08);
+    },
+    success() {
+      [[659.25, 0], [880, 0.1], [1174.66, 0.22]].forEach(([f, d]) => {
+        emitTone(f, 'triangle', 0.4, d, 0.055);
+      });
+    },
+    tap() {
+      emitTone(850, 'sine', 0.08, 0, 0.03);
+    }
+  };
+
+  function triggerVibrate(pattern) {
+    try {
+      if (navigator.vibrate) navigator.vibrate(pattern);
+    } catch(e) {}
+  }
+
+  /* =========================================================
+     2. FEEDBACK VISUAL: BRILHO DOURADO (SHINE / GLEAM)
+     ========================================================= */
+  document.addEventListener('pointerdown', (e) => {
+    const el = e.target.closest('.shine-gold');
+    if (!el) return;
+    el.classList.remove('active-shine');
+    void el.offsetWidth;
+    el.classList.add('active-shine');
+    setTimeout(() => el.classList.remove('active-shine'), 1100);
+  }, { passive: true });
+
+  /* =========================================================
+     3. FUMAÇA MÁGICA DE YZMA (ROSA TRANSLÚCIDA)
+     ========================================================= */
+  const smokeContainer = $('#magicSmokeLayer');
+  const smokePalettes = [
+    'rgba(244, 63, 94, 0.65)',
+    'rgba(192, 132, 252, 0.55)',
+    'rgba(251, 113, 133, 0.5)'
+  ];
+
+  function spawnMagicSmoke(x, y, count = 8, spread = 120) {
+    if (isReducedMotion) return;
+    for (let i = 0; i < count; i++) {
+      const puff = document.createElement('div');
+      puff.className = 'smoke-puff-particle';
+      puff.style.left = (x + (Math.random() - 0.5) * spread) + 'px';
+      puff.style.top = (y + (Math.random() - 0.5) * spread * 0.6) + 'px';
+      puff.style.setProperty('--dx', ((Math.random() - 0.5) * 100).toFixed(0) + 'px');
+      puff.style.setProperty('--dy', (-35 - Math.random() * 75).toFixed(0) + 'px');
+      puff.style.setProperty('--ds', (1.6 + Math.random() * 1.3).toFixed(2));
+      puff.style.setProperty('--puff-tint', smokePalettes[i % smokePalettes.length]);
+      puff.style.animationDelay = (i * 35) + 'ms';
+      smokeContainer.appendChild(puff);
+      puff.addEventListener('animationend', () => puff.remove(), { once: true });
+    }
+  }
+
+  function getElementCenter(el) {
+    const rect = el.getBoundingClientRect();
+    return [rect.left + rect.width / 2, rect.top + rect.height / 2];
+  }
+
+  /* =========================================================
+     4. CONFETES IMPERIAIS (CANVAS)
+     ========================================================= */
+  const canvas = $('#confettiCanvas');
+  const ctx = canvas.getContext('2d');
+  let confettiParticles = [];
+  let isCanvasActive = false;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth * dpr;
+    canvas.height = window.innerHeight * dpr;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  const confettiPalette = [
+    '#fcd34d', '#f59e0b', '#fff7d6', '#06b6d4', '#0891b2', '#e11d48', '#f43f5e', '#c084fc'
+  ];
+
+  function launchConfetti(x = window.innerWidth / 2, y = window.innerHeight * 0.4, count = 90) {
+    if (isReducedMotion) return;
+    for (let i = 0; i < count; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 4 + Math.random() * 9.5;
+      confettiParticles.push({
+        x, y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 5.5,
+        w: 5 + Math.random() * 6.5,
+        h: 3 + Math.random() * 4.5,
+        rot: Math.random() * 6.28,
+        vRot: (Math.random() - 0.5) * 0.35,
+        color: confettiPalette[(Math.random() * confettiPalette.length) | 0],
+        isDiamond: Math.random() < 0.4,
+        life: 1,
+        decay: 0.009 + Math.random() * 0.012
+      });
+    }
+    if (!isCanvasActive) {
+      isCanvasActive = true;
+      requestAnimationFrame(runConfetti);
+    }
+  }
+
+  function runConfetti() {
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    for (let i = confettiParticles.length - 1; i >= 0; i--) {
+      const p = confettiParticles[i];
+      p.vy += 0.22;
+      p.vx *= 0.985;
+      p.vy *= 0.99;
+      p.x += p.vx;
+      p.y += p.vy;
+      p.rot += p.vRot;
+      p.life -= p.decay;
+
+      if (p.life <= 0 || p.y > window.innerHeight + 25) {
+        confettiParticles.splice(i, 1);
+        continue;
+      }
+
+      ctx.save();
+      ctx.globalAlpha = Math.min(1, p.life * 1.5);
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rot);
+      ctx.fillStyle = p.color;
+
+      if (p.isDiamond) {
+        ctx.beginPath();
+        ctx.moveTo(0, -p.w / 2);
+        ctx.lineTo(p.w / 2, 0);
+        ctx.lineTo(0, p.w / 2);
+        ctx.lineTo(-p.w / 2, 0);
+        ctx.fill();
+      } else {
+        ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+      }
+      ctx.restore();
+    }
+
+    if (confettiParticles.length > 0) {
+      requestAnimationFrame(runConfetti);
+    } else {
+      isCanvasActive = false;
+      ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    }
+  }
+
+  /* =========================================================
+     5. TOAST IMPERIAL
+     ========================================================= */
+  const toastBox = $('#imperialToast');
+  let toastTimer = null;
+  function showImperialToast(msg) {
+    toastBox.textContent = msg;
+    toastBox.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastBox.classList.remove('show'), 2600);
+  }
+
+  /* =========================================================
+     6. O LABORATÓRIO SECRETO (TELA INICIAL COM AS ALAVANCAS)
+     ========================================================= */
+  const labOverlay = $('#labOverlay');
+  const trapAlert = $('#trapdoorAlert');
+  const yzmaTrapVideo = $('#yzmaTrapVideo');
+  const socketWrong = $('#socketWrong');
+  const socketRight = $('#socketRight');
+  let leverAttemptCount = 0; // 0 = 1ª tentativa (sempre alçapão com vídeo), >= 1 = 2ª tentativa (sempre abre o convite)
+  let hasUnlocked = false;
+
+  const yzmaIntroAudio = document.getElementById('yzmaIntroAudioEl') || new Audio('assets/yzma_puxe_alavanca_intro.mp3');
+  yzmaIntroAudio.volume = 1.0;
+  yzmaIntroAudio.preload = 'auto';
+  window.yzmaIntroAudio = yzmaIntroAudio;
+
+  const templePortalAudio = document.getElementById('temploPortalAudioEl') || new Audio('assets/abertura_maestral.mp3');
+  templePortalAudio.volume = 1.0;
+  templePortalAudio.preload = 'auto';
+  window.templePortalAudio = templePortalAudio;
+
+  // Disparo imediato e limpo da fala inicial da Yzma ("Puxe a alavanca, Kronk")
+  function playYzmaIntroAudio() {
+    if (window.__yzmaUnlocked || !yzmaIntroAudio) return;
+    if (!yzmaIntroAudio.paused && yzmaIntroAudio.currentTime > 0) return;
+    yzmaIntroAudio.currentTime = 0;
+    const p = yzmaIntroAudio.play();
+    if (p !== undefined) {
+      p.catch(() => {
+        const onFirstGesture = () => {
+          if (!hasUnlocked && leverAttemptCount === 0 && yzmaIntroAudio.paused) {
+            yzmaIntroAudio.currentTime = 0;
+            yzmaIntroAudio.play().catch(() => {});
+          }
+        };
+        ['pointerdown', 'touchstart', 'click'].forEach(evt => {
+          window.addEventListener(evt, onFirstGesture, { once: true, passive: true });
+        });
+      });
+    }
+  }
+  playYzmaIntroAudio();
+  document.addEventListener('DOMContentLoaded', playYzmaIntroAudio, { once: true });
+
+  function revealInvitationToMessageTab() {
+    try {
+      yzmaIntroAudio.pause();
+    } catch(e) {}
+
+    if (labOverlay) {
+      labOverlay.classList.add('opened');
+      setTimeout(() => {
+        document.body.classList.remove('lock-scroll');
+        document.body.classList.add('revealed');
+        labOverlay.style.display = 'none';
+
+        // Garante que abre direto na aba Mensagem com o vídeo do recado
+        switchImperialTab('panel-mensagem', true);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        showImperialToast('🎬 Assista ao recado real do Imperador!');
+
+        // Só toca o vídeo após o som maestral da abertura se encerrar totalmente
+        let videoStarted = false;
+        const triggerVideo = () => {
+          if (videoStarted) return;
+          videoStarted = true;
+          if (typeof playKuzcoVideo === 'function') {
+            playKuzcoVideo(true);
+          }
+        };
+
+        if (templePortalAudio && !templePortalAudio.paused) {
+          templePortalAudio.addEventListener('ended', triggerVideo, { once: true });
+          // Fallback de segurança caso o evento 'ended' demore
+          const fanfareDuration = templePortalAudio.duration && !isNaN(templePortalAudio.duration) ? templePortalAudio.duration : 3.6;
+          setTimeout(triggerVideo, (fanfareDuration + 0.15) * 1000);
+        } else {
+          // Se o áudio não estava tocando, inicia suavemente
+          setTimeout(triggerVideo, 500);
+        }
+      }, 800);
+    }
+  }
+
+  window.handleLeverPull = function(side) {
+    if (hasUnlocked) return;
+    getAudioCtx();
+    imperialSounds.leverCreak();
+
+    const targetSocket = (side === 'left' || side === 'wrong') ? socketWrong : socketRight;
+
+    if (leverAttemptCount === 0) {
+      // 1ª TENTATIVA: SEMPRE A ERRADA (abre a caixa com o vídeo da Yzma caindo)
+      leverAttemptCount++;
+      if (targetSocket) targetSocket.classList.add('pulled');
+
+      // Interrompe o áudio de introdução imediatamente
+      try {
+        yzmaIntroAudio.pause();
+        yzmaIntroAudio.currentTime = 0;
+      } catch(e) {}
+
+      setTimeout(() => {
+        imperialSounds.trapDoor();
+        if (trapAlert) {
+          trapAlert.classList.add('show');
+          if (yzmaTrapVideo) {
+            yzmaTrapVideo.currentTime = 0;
+            yzmaTrapVideo.muted = false;
+            yzmaTrapVideo.play().catch(() => {
+              // Se política do browser bloquear som sem clique direto no elemento
+              yzmaTrapVideo.muted = true;
+              yzmaTrapVideo.play().catch(() => {});
+            });
+          }
+        }
+        triggerVibrate([100, 50, 200]);
+      }, 350);
+    } else {
+      // 2ª TENTATIVA: QUALQUER ALAVANCA AGORA É A CERTA!
+      hasUnlocked = true;
+      window.__yzmaUnlocked = true;
+      if (targetSocket) targetSocket.classList.add('pulled');
+
+      try {
+        yzmaIntroAudio.pause();
+      } catch(e) {}
+
+      // Som maestral triunfal de abertura do palácio
+      try {
+        templePortalAudio.currentTime = 0;
+        templePortalAudio.play().catch(() => {});
+      } catch(e) {}
+
+      setTimeout(() => {
+        imperialSounds.fanfare();
+        triggerVibrate(35);
+        launchConfetti(window.innerWidth / 2, window.innerHeight * 0.45, 120);
+        revealInvitationToMessageTab();
+      }, 350);
+    }
+  };
+
+  window.pullWrongLever = function() {
+    handleLeverPull('left');
+  };
+
+  window.pullRightLever = function() {
+    handleLeverPull('right');
+  };
+
+  window.skipIntroDirectly = function() {
+    if (hasUnlocked) return;
+    hasUnlocked = true;
+    revealInvitationToMessageTab();
+  };
+
+  window.closeTrapAlert = function() {
+    if (trapAlert) trapAlert.classList.remove('show');
+    if (yzmaTrapVideo) {
+      yzmaTrapVideo.pause();
+      yzmaTrapVideo.currentTime = 0;
+    }
+    if (socketWrong) socketWrong.classList.remove('pulled');
+    if (socketRight) socketRight.classList.remove('pulled');
+    showImperialToast('Agora tente qualquer alavanca! 🦙');
+  };
+
+  /* =========================================================
+     7. TROCA DE ABAS COM TRANSIÇÃO DE FUMAÇA MÁGICA
+     ========================================================= */
+  const tabBtns = $$('.tab-btn');
+  const panels = {
+    'panel-decreto': $('#panel-decreto'),
+    'panel-mensagem': $('#panel-mensagem')
+  };
+  let currentPanelId = 'panel-mensagem';
+  let isSwitching = false;
+  const videoPlayer = $('#kuzcoVideoPlayer');
+
+  function switchImperialTab(targetId, isInstant = false) {
+    if (targetId === currentPanelId || isSwitching || !panels[targetId]) return;
+    isSwitching = true;
+
+    tabBtns.forEach(btn => {
+      const active = btn.dataset.target === targetId;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-selected', active);
+    });
+
+    if (targetId === 'panel-mensagem') {
+      const dot = $('#videoNoticeDot');
+      if (dot) dot.remove();
+    }
+    if (currentPanelId === 'panel-mensagem' && !videoPlayer.paused) {
+      videoPlayer.pause();
+    }
+    if (toastBox) {
+      toastBox.classList.remove('show');
+      clearTimeout(toastTimer);
+    }
+
+    if (!isInstant) {
+      const [centerX] = getElementCenter($('.imperial-tabs'));
+      const tabsBottom = $('.imperial-tabs').getBoundingClientRect().bottom;
+      spawnMagicSmoke(centerX, Math.min(window.innerHeight * 0.45, tabsBottom + 160), 10, 220);
+      imperialSounds.bubble();
+    }
+
+    const currentEl = panels[currentPanelId];
+    const targetEl = panels[targetId];
+
+    currentEl.classList.remove('active');
+    targetEl.classList.add('active');
+
+    const tabsTop = $('.imperial-tabs').getBoundingClientRect().top + window.scrollY - 12;
+    if (window.scrollY > tabsTop) {
+      window.scrollTo({ top: tabsTop, behavior: isInstant ? 'auto' : 'smooth' });
+    }
+
+    currentPanelId = targetId;
+    isSwitching = false;
+  }
+  window.switchImperialTab = switchImperialTab;
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => switchImperialTab(btn.dataset.target));
+  });
+
+  /* =========================================================
+     8. KUZCO INTERATIVO NO DECRETO E LETRAS DO OLIVER
+     ========================================================= */
+  const heroStage = $('#kuzcoHero');
+  if (heroStage) {
+    heroStage.addEventListener('click', (e) => {
+      imperialSounds.tap();
+      launchConfetti(e.clientX || window.innerWidth / 2, e.clientY || window.innerHeight * 0.35, 30);
+      showImperialToast('“Boo-yah! Bem-vindos à Kuzcotopia!” 🦙👑');
+    });
+  }
+
+  const childName = $('.decree-child-name');
+  if (childName) {
+    childName.addEventListener('click', (e) => {
+      imperialSounds.tap();
+      launchConfetti(e.clientX || window.innerWidth / 2, e.clientY || window.innerHeight * 0.45, 25);
+      showImperialToast('👑 Viva o Imperador Oliver! 2 Anos de pura alegria!');
+    });
+  }
+
+  const ageCoin = $('.age-sun-coin');
+  if (ageCoin) {
+    ageCoin.addEventListener('click', (e) => {
+      e.stopPropagation();
+      imperialSounds.fanfare();
+      launchConfetti(e.clientX || window.innerWidth / 2, e.clientY || window.innerHeight * 0.5, 35);
+      showImperialToast('☀️ 2 Anos de muito Groove! ✨');
+    });
+  }
+
+  /* =========================================================
+     9. PLAYER DE VÍDEO DO KUZCO COM BOTÃO SOLAR
+     ========================================================= */
+  const videoBox = $('#videoBox');
+  const btnPlayVideo = $('#btnPlayVideo');
+  const videoProgress = $('#videoProgressBar');
+
+  window.playKuzcoVideo = function(preferAudio = true) {
+    if (!videoPlayer) return;
+    if (preferAudio) {
+      videoPlayer.muted = false;
+    }
+    const playPromise = videoPlayer.play();
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          if (videoBox) videoBox.classList.add('playing');
+        })
+        .catch(() => {
+          // Se o navegador barrar o áudio inicialmente por política de autoplay
+          videoPlayer.muted = true;
+          videoPlayer.play().then(() => {
+            if (videoBox) videoBox.classList.add('playing');
+            showImperialToast('Toque no vídeo para ativar o áudio 🔊');
+          }).catch(() => {});
+        });
+    }
+  };
+
+  btnPlayVideo.addEventListener('click', (e) => {
+    e.stopPropagation();
+    playKuzcoVideo();
+  });
+
+  videoBox.addEventListener('click', () => {
+    if (videoPlayer.paused) {
+      playKuzcoVideo();
+    } else {
+      videoPlayer.pause();
+    }
+  });
+
+  videoPlayer.addEventListener('play', () => videoBox.classList.add('playing'));
+  videoPlayer.addEventListener('pause', () => videoBox.classList.remove('playing'));
+  videoPlayer.addEventListener('ended', () => {
+    videoBox.classList.remove('playing');
+    const [vx, vy] = getElementCenter(videoBox);
+    launchConfetti(vx, vy, 80);
+    showImperialToast('Kuzco encerrou a convocação real! ✨');
+  });
+
+  videoPlayer.addEventListener('timeupdate', () => {
+    if (videoPlayer.duration) {
+      const pct = videoPlayer.currentTime / videoPlayer.duration;
+      videoProgress.style.transform = `scaleX(${pct})`;
+    }
+  });
+
+  /* =========================================================
+     11. CONTAGEM REGRESSIVA IMPERIAL DINÂMICA
+     ========================================================= */
+  function updateImperialCountdown() {
+    const now = new Date();
+    let targetYear = now.getFullYear();
+    let partyDate = new Date(targetYear, 0, 16, 19, 0, 0); // 16 de Jan às 19:00
+    if (now > partyDate) {
+      partyDate = new Date(targetYear + 1, 0, 16, 19, 0, 0);
+    }
+
+    const diff = partyDate.getTime() - now.getTime();
+    if (diff <= 0) {
+      $('#countdownLabel').textContent = 'O Grande Dia Chegou!';
+      ['cdDays', 'cdHours', 'cdMins', 'cdSecs'].forEach(id => $('#' + id).textContent = '00');
+      return;
+    }
+
+    const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const m = Math.floor((diff / (1000 * 60)) % 60);
+    const s = Math.floor((diff / 1000) % 60);
+
+    const pad = n => String(n).padStart(2, '0');
+    $('#cdDays').textContent = pad(d);
+    $('#cdHours').textContent = pad(h);
+    $('#cdMins').textContent = pad(m);
+    $('#cdSecs').textContent = pad(s);
+  }
+  updateImperialCountdown();
+  setInterval(updateImperialCountdown, 1000);
+
+  /* =========================================================
+     12. LINKS DE INTEGRAÇÃO (CALENDÁRIO & WHATSAPP)
+     ========================================================= */
+  const calQuery = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: 'Llama-Palooza do Oliver · 2 Anos! 🦙👑',
+    dates: '20270116T220000Z/20270117T020000Z', // 16/01 às 19h (UTC-3)
+    details: 'Decreto Imperial do Imperador Kuzco: Você foi convocado para a festa de 2 anos do Oliver no Llama-Palooza! Não quebre o groove!',
+    location: 'Edifício Sports Garden'
+  });
+  $('#btnSaveCalendar').href = 'https://calendar.google.com/calendar/render?' + calQuery.toString();
+
+  $('#btnRsvpWhatsApp').addEventListener('click', (e) => {
+    const [rx, ry] = getElementCenter(e.currentTarget);
+    spawnMagicSmoke(rx, ry - 25, 10, 160);
+    imperialSounds.success();
+    showImperialToast('Abrindo o WhatsApp para confirmar... 🦙💬');
+  });
+
+  /* =========================================================
+     13. PARÂMETROS DE ACESSO RÁPIDO (?skip=1 & ?tab=...)
+     ========================================================= */
+  if (urlParams.has('skip')) {
+    if (labOverlay) labOverlay.style.display = 'none';
+    document.body.classList.remove('lock-scroll');
+    document.body.classList.add('revealed');
+  }
+
+  if (urlParams.has('trap')) {
+    pullWrongLever();
+  }
+
+  const reqTab = urlParams.get('tab');
+  if (reqTab && panels['panel-' + reqTab]) {
+    switchImperialTab('panel-' + reqTab, true);
+  }
+
+})();
+</script>
+</body>
+</html>
